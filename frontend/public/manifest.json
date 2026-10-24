@@ -1,0 +1,13 @@
+{
+  "name": "DocAI",
+  "short_name": "DocAI",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "any"
+    }
+  ]
+}

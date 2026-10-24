@@ -1,0 +1,29 @@
+v-env
+.env
+!.env.example
+
+node_modules
+__pycache__
+v-env
+.DS_Store
+aws_cf_deploy_anything_llm.json
+yarn.lock
+*.bak
+.idea
+.local/
+frontend/.env.local
+
+# Local secrets and runtime data
+.env.*
+!.env.example
+!.env.*.example
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.log
+
+# Upstream automation is retained locally; configure DocAI CI separately.
+/.github/workflows/
